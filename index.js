@@ -1,6 +1,7 @@
 import MapView, { Animated, MAP_TYPES, ProviderPropType } from './lib/components/MapView';
 import Marker from './lib/components/MapMarker.js';
 import Overlay from './lib/components/MapOverlay.js';
+import Heatmap from './lib/components/MapHeatmap.js';
 
 export { default as Polyline } from './lib/components/MapPolyline.js';
 export { default as Polygon } from './lib/components/MapPolygon.js';
@@ -10,7 +11,7 @@ export { default as LocalTile } from './lib/components/MapLocalTile.js';
 export { default as Callout } from './lib/components/MapCallout.js';
 export { default as AnimatedRegion } from './lib/components/AnimatedRegion.js';
 
-export { Marker, Overlay };
+export { Marker, Overlay, Heatmap };
 export { Animated, MAP_TYPES, ProviderPropType };
 
 export const PROVIDER_GOOGLE = MapView.PROVIDER_GOOGLE;

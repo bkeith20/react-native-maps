@@ -7,6 +7,10 @@ import com.facebook.react.uimanager.ViewGroupManager;
 import com.facebook.react.uimanager.annotations.ReactProp;
 
 public class AirMapHeatmapManager extends ViewGroupManager<AirMapHeatmap> {
+    
+    public AirMapHeatmapManager() {
+    }
+    
     @Override
     public String getName() {
         return "AIRMapHeatmap";
